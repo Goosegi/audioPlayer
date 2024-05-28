@@ -23,6 +23,22 @@ const data = {
                     isHot: false,
                     trackFileUrl: "audio/50cent%20-%20In%20da%20club.mp3",
                     trackCoverImgUrl: "img/cardImage/trackList/track2.jpeg",
+                },
+                {
+                    trackId: "3",
+                    artistName: "DMX",
+                    trackTitle: "X Gon' Give It To Ya",
+                    isHot: true,
+                    trackFileUrl: "audio/DMX%20-%20X%20Gon'%20Give%20It%20To%20Ya.mp3",
+                    trackCoverImgUrl: "img/cardImage/trackList/track3.jpeg",
+                },
+                {
+                    trackId: "4",
+                    artistName: "Eminem feat 50 Cent, Cashis, Lloyd Banks ",
+                    trackTitle: "You Don't Know",
+                    isHot: true,
+                    trackFileUrl: "audio/Eminem%20-%20You%20Don't%20Know%20(feat.%2050%20cent,%20Lloyd%20Banks%20and%20Cashis).mp3",
+                    trackCoverImgUrl: "img/cardImage/trackList/track4.jpeg",
                 }
             ]
         },
@@ -50,6 +66,22 @@ const data = {
                     trackFileUrl: "audio/Vanila Ice - Ice Baby.mp3",
                     trackCoverImgUrl: "img/cardImage/trackList/track6.jpeg"
                 },
+                {
+                    trackId: "7",
+                    artistName: "MC Hammer",
+                    trackTitle: "You Can’t Touch This",
+                    isHot: true,
+                    trackFileUrl: "audio/Mc%20Hammer%20-%20You%20Can't%20Touch%20This.mp3",
+                    trackCoverImgUrl: "img/cardImage/trackList/track7.jpeg"
+                },
+                {
+                    trackId: "8",
+                    artistName: "Brand Nubian",
+                    trackTitle: "Brand Nubian",
+                    isHot: true,
+                    trackFileUrl: "audio/Brand%20Nubian%20-%20Brand%20Nubian.mp3",
+                    trackCoverImgUrl: "img/cardImage/trackList/track8.jpeg"
+                }
             ]
         }
     ],
@@ -387,6 +419,7 @@ function ButtonsEditDelete() {
 
 
 //============================================================
+
 
 const root = document.getElementById("root")
 root.append(
